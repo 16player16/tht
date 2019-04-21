@@ -1,0 +1,125 @@
+
+
+
+
+islemler = """
+16player16
+(1) sayı
+(2) rakam
+(3) özel karaker
+(4) sayı + rakam
+(5) sayı + özel karakter
+(6) rakam + özel karakter
+(7) sayı + rakam + özel karakter
+
+"""
+
+print(islemler)
+
+anahtar = 1
+
+while anahtar == 1:
+    soru = input("isleminizi seçin: ")
+
+    
+
+    if soru == "1":
+      
+import trings
+from random import *
+
+letters = string.ascii_letters 
+digits = string.digits 
+symbols = string.punctuation
+      chars = letters 
+min_u = int(input("min karakter "))
+max_u = int(input("max karakter"))
+sifre ="".join(choice(chars) for x in range(randint(min_u, max_u)))
+print("Şifreniz =",sifre)
+elif  soru == "2":
+      
+import string
+from random import *
+
+letters = string.ascii_letters 
+digits = string.digits 
+symbols = string.punctuation
+      chars = digits 
+min_u = int(input("min karakter "))
+max_u = int(input("max karakter"))
+sifre ="".join(choice(chars) for x in range(randint(min_u, max_u)))
+print("Şifreniz =",sifre)
+elif  soru == "3":
+      
+import string
+from random import *
+
+letters = string.ascii_letters 
+digits = string.digits 
+symbols = string.punctuation
+      chars = symbols
+min_u = int(input("min karakter "))
+max_u = int(input("max karakter"))
+sifre ="".join(choice(chars) for x in range(randint(min_u, max_u)))
+print("Şifreniz =",sifre)
+elif  soru == "4":
+      
+import string
+from random import *
+
+letters = string.ascii_letters 
+digits = string.digits 
+symbols = string.punctuation
+chars = letters + digits 
+
+min_u = int(input("min karakter "))
+max_u = int(input("max karakter"))
+sifre ="".join(choice(chars) for x in range(randint(min_u, max_u)))
+print("Şifreniz =",sifre)
+elif  soru == "5":
+      
+import string
+from random import *
+
+letters = string.ascii_letters 
+digits = string.digits 
+symbols = string.punctuation
+chars =  symbols + letters
+
+min_u = int(input("min karakter "))
+max_u = int(input("max karakter"))
+sifre ="".join(choice(chars) for x in range(randint(min_u, max_u)))
+print("Şifreniz =",sifre)
+elif  soru == "6":
+      
+import string
+from random import *
+
+letters = string.ascii_letters 
+digits = string.digits 
+symbols = string.punctuation
+chars =  symbols + digits
+
+min_u = int(input("min karakter "))
+max_u = int(input("max karakter"))
+sifre ="".join(choice(chars) for x in range(randint(min_u, max_u)))
+print("Şifreniz =",sifre)
+elif  soru == "7":
+      
+import string
+from random import *
+
+letters = string.ascii_letters 
+digits = string.digits 
+symbols = string.punctuation
+chars =  symbols + digits + letters
+
+min_u = int(input("min karakter "))
+max_u = int(input("max karakter"))
+sifre ="".join(choice(chars) for x in range(randint(min_u, max_u)))
+print("Şifreniz =",sifre)
+
+eval
+print("hataı giriş")
+
+
