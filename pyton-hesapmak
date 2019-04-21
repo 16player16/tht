@@ -1,0 +1,42 @@
+islemler = """
+16player16
+(+) 
+(-) 
+(*) 
+(/) 
+
+"""
+
+print(islemler)
+
+anahtar = 1
+
+while anahtar == 1:
+    soru = input("isleminizi seçin: ")
+
+    
+
+    if soru == "+":
+        sayı1 = int(input("Toplama işlemi için ilk sayıyı girin: "))
+        sayı2 = int(input("Toplama işlemi için ikinci sayıyı girin: "))
+        print(sayı1, "+", sayı2, "=", sayı1 + sayı2)
+
+    elif soru == "-":
+        sayı3 = int(input("Çıkarma işlemi için ilk sayıyı girin: "))
+        sayı4 = int(input("Çıkarma işlemi için ikinci sayıyı girin: "))
+        print(sayı3, "-", sayı4, "=", sayı3 - sayı4)
+
+    elif soru == "*":
+        sayı5 = int(input("Çarpma işlemi için ilk sayıyı girin: "))
+        sayı6 = int(input("Çarpma işlemi için ikinci sayıyı girin: "))
+        print(sayı5, "x", sayı6, "=", sayı5 * sayı6)
+
+    elif soru == "/":
+        sayı7 = int(input("Bölme işlemi için ilk sayıyı girin: "))
+        sayı8 = int(input("Bölme işlemi için ikinci sayıyı girin: "))
+        print(sayı7, "/", sayı8, "=", sayı7 / sayı8)
+
+
+    else:
+        print("hatalı sembol yazdınız.")
+       
