@@ -1,0 +1,27 @@
+with open("yahoo.txt","r",encoding="utf-8") as file:
+    200= list()
+    404 = list()
+    500 = list()
+    
+    for satır in file:
+        satır = satır[:-1]
+        satır_elemanları = satır.split(",")
+        if (satır_elemanları[1] == "404"):
+            404.append(satır + "\n")
+        elif (satır_elemanları[1] == "200"):
+            200.append(satır + "\n")
+
+        else:
+            500.append(satır + "\n")
+    with open("200.txt","w",encoding="utf-8") as file1:
+        for i in 200:
+            file1.write(i)
+            
+            
+
+    with open("500.txt","w",encoding="utf-8") as file2:
+        for i in 500:
+            file2.write(i)
+    with open("404.txt","w",encoding="utf-8") as file3:
+        for i in 404:
+            file3.write(i)
